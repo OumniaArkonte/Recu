@@ -15,8 +15,8 @@ export class RecuService {
   public findAll():Observable<Array<Recu>>{
     return this._http.get<Array<Recu>>(this.url);
   }
-  public save(paiement: Recu):Observable<Recu>{
-    return this._http.post<Recu>(this.url , paiement);
+  public save(recu: Recu):Observable<Recu>{
+    return this._http.post<Recu>(this.url , this.recu);
   }
   public  deleteByReference(code: string): Observable<number>{
     return this._http.delete<number>(this.url+'code/'+code);

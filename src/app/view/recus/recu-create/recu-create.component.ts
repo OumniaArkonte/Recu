@@ -25,7 +25,7 @@ export class RecuCreateComponent implements OnInit{
   constructor(private recuService: RecuService) {
   }
 
-  get paiement(): Recu {
+  get recu(): Recu {
     return this.recuService.recu;
   }
 
