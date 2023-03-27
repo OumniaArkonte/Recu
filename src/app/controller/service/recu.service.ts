@@ -9,7 +9,7 @@ import {Observable} from "rxjs";
 export class RecuService {
   private _recu!:  Recu;
   private _recus!: Array<Recu>;
-  private _url = "http://localhost:8036/api/v1/recu/";
+  private _url = "http://localhost:8033/GestionCommertiale/Recu/";
 
   constructor(private _http:HttpClient) { }
   public findAll():Observable<Array<Recu>>{
