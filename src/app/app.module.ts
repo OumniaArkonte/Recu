@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RecuCreateComponent } from './view/recus/recu-create/recu-create.component';
-import { RecuListComponent } from './view/recus/recu-list/recu-list.component';
+import { RecuCreateComponent } from './view/recu/recu-create/recu-create.component';
+import { RecuListComponent } from './view/recu/recu-list/recu-list.component';
 import {FormsModule} from "@angular/forms";
 
 
